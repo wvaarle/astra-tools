@@ -19,3 +19,6 @@ create_animated_gif(Files(files), 'out1.gif', 'pbar','bottomright', 'fps',50);
 
 %% Animated GIF from matrix slices
 create_animated_gif(Slices(data,3), 'out2.gif', 'pbar','bottomleft', 'pbar_height',6, 'pbar_width',30, 'fps',50);
+
+%% Movie from matrix slices
+create_movie(Slices(data,3), 'out3.mp4', 'pbar','bottomleft', 'pbar_height',6, 'pbar_width',30, 'fps',50);
